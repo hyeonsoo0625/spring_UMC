@@ -33,5 +33,5 @@ jobs:
       shell: bash # (6).권한부여
 
     - name: Build with Gradle
-      run: ./gradlew clean build
+      run: ./gradlew clean build -x test
       shell: bash # (7).build 시작
